@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+.container{
+    top: 0;
+    left: 0;
+	background-image: url("yoga2.jpg");
+    height:100%;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:absolute;
+	
+}
+.layer {
+    background-color: rgba(99, 102, 109, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.blockquote-wrapper {
+   display: inline-flex;
+   height: 100vh;
+   padding: 0 20px;
+   margin-left: 100px;
+}
+.blockquote {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 30px 0;
+    width: 120%;
+    max-width: 600px;
+    z-index: 1;
+    margin: 80px auto;
+    align-self: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+.blockquote h1 {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+}
+.blockquote:after {
+    position: absolute;
+    content: "\201D";
+    color: rgba(255, 255, 255, 1);
+    font-size: 10rem;
+    line-height: 0;
+    bottom: -43px;
+    right: 30px;
+}
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 60px;
+   }
+
+}
+.content{
+    text-align: center;
+    box-sizing:content-box;
+    padding-left: 350px;
+    padding-right:350px;
+    font-size: 22px;
+}
+
+h1{
+    margin-top:40px;
+    font-size:40px;
+    color: darkblue;
+    font-family:monospace;
+}
+h3{
+    margin-top:40px;
+    font-size:30px;
+    color: darkblue;
+    text-align:center;
+    font-family:monospace;
+}
+h4{
+    margin-top:40px;
+    font-size:25px;
+    color: darkblue;
+    text-align:left;
+    margin-left:80px;
+    font-family:monospace;
+}
+p{
+    margin-left:65px;
+    margin-right:20px;
+    text-align:left;
+}
+blockquote {
+    font-weight: 100;
+    font-size: 2rem;
+    max-width: 600px;
+    line-height: 1.4;
+    position: relative;
+    margin: 0;
+    padding: .5rem;
+}
+
+.block:before,
+.block:after {
+    font-family: 'Special Elite', cursive;
+    position: absolute;
+    color: #f1efe6;
+    font-size: 8rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.block:before {
+    content: '“';
+    left: -5rem;
+    top: -2rem;
+}
+
+.block:after {
+    content: '”';
+    right: -5rem;
+    bottom: 1rem;
+}
+
+cite {
+    line-height: 3;
+    text-align: left;
+}
